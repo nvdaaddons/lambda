@@ -180,8 +180,6 @@ possibile iscriversi dal sito internet: https://groups.io/g/lambda-nvda.
 [[!tag dev stable]]
 [[!tag dev]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=lambda[1]:
-http://addons.nvda-project.org/files/get.php?file=lambda
+[1]: http://addons.nvda-project.org/files/get.php?file=lambda
 
-[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev[2]:
-http://addons.nvda-project.org/files/get.php?file=lambda-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev
