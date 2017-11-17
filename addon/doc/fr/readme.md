@@ -188,6 +188,15 @@ statut du développement. La version en cours de développement n'est pas
 incluse car elle peut subir des modifications jusqu'à ce qu'elle soit
 marquée comme stable ou rejetée en tant que candidate.
 
+### Version 1.2.1a (stable)
+
+This update is intended to be a long-term support release. It means that
+until, at least, june 2018, it won't be released a version as stable as
+this. We do it to provide students maximum stability and to minimize the
+changes during the academical year.
+
+* New languages. Updated translations.
+
 ### Version 1.2.1 (stable)
 
 * Ajouté la compatibilité avec la façon dont NVDA 2017.3 gère le braille. La

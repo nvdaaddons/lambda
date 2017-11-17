@@ -186,6 +186,16 @@ estado de desenvolvemento. A versión actualmente en desenvolvemento non se
 inclúe xa que podería haber cambios ata que ésta sexa marcada coma estable
 ou descartada coma candidata.
 
+### Versión 1.2.1a (estable)
+
+Esta actualización foi concebida coma unha versión con soporte durante largo
+tempo. Isto quere dicir que ata, alomenos, xuño do 2018, non está previsto
+que se libere unha versión tan estable coma ésta. Facemos isto para
+proporcionar aos estudantes máxima estabilidade e para minimizar os trocos
+durante o curso académico.
+
+* Novas linguas. Traducións actualizadas.
+
 ### Versión 1.2.1 (estable)
 
 * Engadida compatibilidade coa maneira que NVDA 2017.3 utiliza para

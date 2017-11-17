@@ -163,6 +163,15 @@ the version number, between parentheses, is the development status. The
 current development release isn't included as it could have changes until it
 is flagged as stable or discarded as candidate.
 
+### Version 1.2.1a (stable)
+
+This update is intended to be a long-term support release. It means that
+until, at least, june 2018, it won't be released a version as stable as
+this. We do it to provide students maximum stability and to minimize the
+changes during the academical year.
+
+* New languages. Updated translations.
+
 ### Version 1.2.1 (stable)
 
 * Added compatibility with the way that NVDA 2017.3 uses to manage
