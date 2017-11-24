@@ -173,42 +173,44 @@ maniera più efficiente.
 
 ## Addon mailing list:
 
-To report bugs, suggestions or if you want to contribute you can subscribe
-the Addon Group (in English).  You can subscribe from the website:
-<https://groups.io/g/lambda-nvda>.
+Per segnalare bug, suggerimenti o se si desidera contribuire è possibile
+iscriversi al gruppo relativo a questo componente aggiuntivo (in inglese). È
+possibile iscriversi dal sito internet: <https://groups.io/g/lambda-nvda>.
 
-## Change log
+## Log dei cambiamenti
 
-Below is a list of changes between the different add-on versions. Next to
-the version number, between parentheses, is the development status. The
-current development release isn't included as it could have changes until it
-is flagged as stable or discarded as candidate.
+Di seguito si trova un'elenco dei cambiamenti apportati in diverse versioni
+di questo componente aggiuntivo. Vicino al numero della versione, tra
+parentesi, è lo stato di sviluppo. L'attuale versione di sviluppo non è
+inclusa, giacché potrebbe avere cambiamenti fino a quando non è segnato come
+stabile o revocata a ricevere lo stato della versione candidata.
 
-### Version 1.2.1a (stable)
+### Versione 1.2.1a (stabile)
 
-This update is intended to be a long-term support release. It means that
-until, at least, june 2018, it won't be released a version as stable as
-this. We do it to provide students maximum stability and to minimize the
-changes during the academical year.
+Questo aggiornamento si desidera essere con supporto a lungo termine. Ciò
+significa che almeno fino a giugno 2018, non sarà rilasciata una versione
+stabile. Facciamo questa cosa per dare una massima stabilità agli allievi e
+agli studenti e per minimizzare le modifiche durante l'anno accademico.
 
-* New languages. Updated translations.
+* Nuove lingue. Traduzioni aggiornate.
 
-### Version 1.2.1 (stable)
+### Versione 1.2.1 (stabile)
 
-* Added compatibility with the way that NVDA 2017.3 uses to manage
-  braille. Backwards compatibility kept.
-* fixed many braille issues.
+* Fu aggiunta la compatibilità con il metodo che è utilizzato da NVDA 2017.3
+  a gestionare braille.
+* Molti errori braille furono riparati.
 
-### Version 1.2.0 (development)
+### Versione 1.2.0 (sviluppo)
 
-This version was not published as stable because the version 1.2.1 included
-major fixes.
+Questa versione non è stata pubblicata come stabile, giacché la versione
+1.2.1 è venuta con maggiori riparazioni.
 
-* New locales. Updated localizations.
+* Furono aggiunte nuove traduzioni, ma anche quelle che erano già
+  disponibili furono aggiornate.
 
-### Version 1.1.8 (stable)
+### Versione 1.1.8 (stabile)
 
-* Initial stable release.
+* La versione stabile iniziale.
 
 [[!tag dev stable]]
 [[!tag dev]]

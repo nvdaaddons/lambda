@@ -173,42 +173,43 @@ Acesta este un set de sfaturi care vă vor ajuta să utilizați suplimentul
 
 ## Lista de mailing a suplimentului:
 
-To report bugs, suggestions or if you want to contribute you can subscribe
-the Addon Group (in English).  You can subscribe from the website:
-<https://groups.io/g/lambda-nvda>.
+Pentru a raporta erori, sugestii sau dacă doriți să contribuiți, vă puteți
+abona la grupul suplimentului (în engleză).  Puteți să vă abonați accesând
+următoarea pagină web: <https://groups.io/g/lambda-nvda>.
 
-## Change log
+## Jurnal de modificări
 
-Below is a list of changes between the different add-on versions. Next to
-the version number, between parentheses, is the development status. The
-current development release isn't included as it could have changes until it
-is flagged as stable or discarded as candidate.
+Mai jos se află o listă de modificări făcute în diferite versiuni ale
+acestui supliment. Lângă numărul versiunii, între paranteze, se află starea
+de dezvoltare. Actuala versiune în dezvoltare nu este inclusă, întrucât ar
+putea să aibă modificări până când va fi marcată ca stabilă sau revocată,
+urmând ca mai apoi să primească statutul d versiune candidată.
 
-### Version 1.2.1a (stable)
+### Versiunea 1.2.1a (stabilă)
 
-This update is intended to be a long-term support release. It means that
-until, at least, june 2018, it won't be released a version as stable as
-this. We do it to provide students maximum stability and to minimize the
-changes during the academical year.
+Această actualizare se dorește afi una cu suport pe termen lung. Asta
+înseamnă că până cel puțin în iunie 2018, nu va mai fi lansată o versiune
+stabilă. Facem asta pentru a le oferi elevilor și studenților o stabilitate
+maximă și pentru a minimiza modificările pe durata anului academic.
 
-* New languages. Updated translations.
+* Limbi noi. Traduceri actualizate.
 
-### Version 1.2.1 (stable)
+### Versiunea 1.2.1 (stabilă)
 
-* Added compatibility with the way that NVDA 2017.3 uses to manage
-  braille. Backwards compatibility kept.
-* fixed many braille issues.
+* A fost adăugată compatibilitatea cu modul în care NVDA 2017.3 obișnuiește
+  să gestioneze Braille-ul. S-a păstrat compatibilitatea Înapoi.
+* Multe erori braille au fost reparate.
 
-### Version 1.2.0 (development)
+### Versiunea 1.2.0 (dezvoltare)
 
-This version was not published as stable because the version 1.2.1 included
-major fixes.
+Această versiune n-a fost publicată ca stabilă, deoarece versiunea 1.2.1 a
+inclus reparări majore.
 
-* New locales. Updated localizations.
+* Au fost adăugate traduceri noi, dar și cele existente au fost actualizate.
 
-### Version 1.1.8 (stable)
+### Versiunea 1.1.8 (stabilă)
 
-* Initial stable release.
+* Versiunea stabilă inițială.
 
 [[!tag dev stable]]
 
