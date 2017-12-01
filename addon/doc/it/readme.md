@@ -179,38 +179,39 @@ possibile iscriversi dal sito internet: <https://groups.io/g/lambda-nvda>.
 
 ## Log dei cambiamenti
 
-Di seguito si trova un'elenco dei cambiamenti apportati in diverse versioni
-di questo componente aggiuntivo. Vicino al numero della versione, tra
+Sotto si trova un'elenco dei cambiamenti apportati in diverse versioni di
+questo componente aggiuntivo. Vicino al numero della versione, tra
 parentesi, è lo stato di sviluppo. L'attuale versione di sviluppo non è
 inclusa, giacché potrebbe avere cambiamenti fino a quando non è segnato come
 stabile o revocata a ricevere lo stato della versione candidata.
 
 ### Versione 1.2.1a (stabile)
 
-Questo aggiornamento si desidera essere con supporto a lungo termine. Ciò
-significa che almeno fino a giugno 2018, non sarà rilasciata una versione
-stabile. Facciamo questa cosa per dare una massima stabilità agli allievi e
-agli studenti e per minimizzare le modifiche durante l'anno accademico.
+Questo aggiornamento è da considerarsi a tutti gli effetti una versione con
+supporto a lungo termine. Significa che, almeno fino a giugno 2018, non
+saranno più rilasciate versioni stabili come questa. Facciamo questo per
+fornire agli studenti il massimo della stabilità e per evitare il maggior
+numero di problemi durante l'anno accademico.
 
 * Nuove lingue. Traduzioni aggiornate.
 
 ### Versione 1.2.1 (stabile)
 
-* Fu aggiunta la compatibilità con il metodo che è utilizzato da NVDA 2017.3
-  a gestionare braille.
-* Molti errori braille furono riparati.
+* Aggiunta la compatibilità con la modalità in cui NVDA gestisce il braille
+  a partire dalla versione 2017.3. Viene comunque mantenuta la
+  retrocompatibilità con le versioni precedenti.
+* Risolti molti problemi sul braille.
 
 ### Versione 1.2.0 (sviluppo)
 
 Questa versione non è stata pubblicata come stabile, giacché la versione
-1.2.1 è venuta con maggiori riparazioni.
+1.2.1 risolve numerosi problemi.
 
-* Furono aggiunte nuove traduzioni, ma anche quelle che erano già
-  disponibili furono aggiornate.
+* Aggiunte nuove traduzioni ed aggiornate quelle esistenti.
 
 ### Versione 1.1.8 (stabile)
 
-* La versione stabile iniziale.
+* Versione stabile iniziale.
 
 [[!tag dev stable]]
 [[!tag dev]]
