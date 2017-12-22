@@ -5,7 +5,7 @@
 * [Testversion herunterladen][2]
 
 Dieses Projekt ist ein AppModul für die LAMBDA-Software. Es wurde durch die Arbeit von Peter Lecky an der Comenius Universität inspiriert.
-LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) ist eine Software, die blinden Menschen das Lesen und Schreiben mathematischer Inhalte mit Hilfe einer Braillezeile und/oder eines Bildschirmlesers ermöglicht. LAMBDA ist das Ergebnis eines durch Fördermittel der EU durchgeführten Projektes. Weitere Informationen über LAMBDA finden Sie unter [http://www.lambdaproject.org/] (http://www.lambdaproject.org/).  
+LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) ist eine Software, die blinden Menschen das Lesen und Schreiben mathematischer Inhalte mit Hilfe einer Braillezeile und/oder eines Bildschirmlesers ermöglicht. LAMBDA ist das Ergebnis eines durch Fördermittel der EU durchgeführten Projektes. Weitere Informationen über LAMBDA finden Sie unter [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  
 Die aktuelle Version der Erweiterung verfügt über Braille-Tabellen für
 italienische und spanische Sprachen und seine Benutzeroberfläche ist in den
 meisten Sprachen der NVDA-Oberfläche verfügbar, da sie von der
@@ -55,7 +55,7 @@ oder abonnieren Sie die Projekt-Mailingliste.
 * Menüs und Dialoge werden in Braille korrekt angezeigt;
 * Der Inhalt des Editors wird korrekt in Brailleschrift wiedergegeben und
   der Benutzer kann sich mit Hilfe von Braille-Scrolling-Tasten oder
-  Cursor-Routing-Tasten bewegen;
+  Cursor-Routing-Tasten durch die Elemente bewegen;
 * Ab der Erweiterungsversion 1.1.0 gibt es zwei Möglichkeiten, wie der Text
   im Lambda-Editor angezeigt wird: "Flächenmodus ein" (Flat mode) und
   "Flächenmodus aus" (non-flat mode). Wenn der "Flächenmodus" eingeschaltet
@@ -96,20 +96,21 @@ Konfigurationsprofil manuell anpassen.
 
 Wenn Sie bestimmte Einstellungen haben, die Sie beibehalten möchten, können
 Sie den "Revert LAMBDA Profile Wizard" (Widerherstellungsassistent für
-LAMBDA-Profile) verwenden. Die Abkürzung, um dieses Werkzeug zu starten, ist
+LAMBDA-Profile) verwenden. Die Tastenkombination für dieses Werkzeug ist
 NVDA+alt+r. Der Fokus muss sich dabei im LAMBDA befinden.
 
-Eine einfache Möglichkeit ist auch alte Versionen des "Lambda"-Profils nach
-der Installation der Erweiterung zu löschen. Öffnen Sie dazu das NVDA-Menü,
-wählen Sie den Menüpunkt"Konfigurationsprofile" und drücken Sie ENTER.
+Eine einfache Möglichkeit ist es auch, alte Versionen des "Lambda"-Profils
+nach der Installation der Erweiterung zu löschen. Öffnen Sie dazu das
+NVDA-Menü, wählen Sie den Menüpunkt"Konfigurationsprofile" und drücken Sie
+ENTER.
 
 Im Dialog Konfigurationsprofile können Sie das Lambda-Profil lokalisieren
 und löschen. Das Profil wird beim nächsten Start der Lambda-Anwendung neu
 erstellt.
 
-Das Löschen des Lambda-Profils sollte eine einfache Lösung sein, auch wenn
-die Erweiterung auf irgendein Problem stößt. Wenn z.B. die Braille-Tabelle
-nicht richtig eingestellt ist, können Sie sie einfach löschen, anstatt das
+Das Löschen des Lambda-Profils ist eine einfache Lösung, auch wenn die
+Erweiterung auf irgendein Problem stößt. Wenn z.B. die Braille-Tabelle nicht
+richtig eingestellt ist, können Sie das Profil einfach löschen, anstatt das
 Profil manuell zu konfigurieren. Die Erweiterung erstellt beim nächsten
 Laden des Lambda-Editors ein neues Profil.
 
@@ -142,13 +143,13 @@ wo:
 * **NVDA+Shift+f**: Schaltet Braille-Flächenmodus ein oder aus;
 * **NVDA+alt+r**: Öffnet den "Revert LAMBDA Profile Wizard"
   (Wiederherstellungsassistent für LAMBDA-Profile);
-* **NVDA+d**: Zeilen duplizieren (nutzen Sie dies statt STRG+d).
+* **NVDA+d**: Zeilen duplizieren (nutzen Sie diesen Befehl statt STRG+d).
 
 ## Bekannte Probleme:
 
 Aufgrund eines Fehlers in LAMBDA bietet die Erweiterung eine Extra-Logik,
-die Leerzeichen meldet. Diese Logik kann in den folgenden Situationen
-versagen:
+die geschützte Leerzeichen meldet. Diese Logik kann in den folgenden
+Situationen versagen:
 
 * Wenn Wörter wie "space", "spazio" "Espacio" etc. im Text eingefügt werden,
   könnten Sie in der lokalen NVDA-Sprache ausgesprochen werden.
@@ -159,30 +160,29 @@ versagen:
 
 ## Nützliche Tipps
 
-Dies sind einige Tipps, die Ihnen eine effizientere Arbeitsweise mit der
+Hier sind einige Tipps, die Ihnen eine effizientere Arbeitsweise mit der
 Erweiterung ermöglichen werden.
 
 * Zeichenweise lesen: Normalerweise möchten Sie bei der Arbeit mit
-  Mathematischen Inhalten, dass NVDA die Dinge, die Sie schreiben, Zeichen
-  für Zeichen meldet. Um dies zu tun, gibt es ein paar einfache Schritte:
+  Mathematischen Inhalten, dass NVDA die Eingaben Zeichen für Zeichen
+  meldet. Um dies zu ermöglichen, gibt es ein paar einfache Schritte:
   Stellen Sie sicher, dass der Fokus auf das Fenster des LAMBDA oder eine
   seiner Varianten (z.B. die Sechs-Punkte-Darstellung) gerichtet ist;
-  drücken Sie NVDA+2 (Nummer zwei) oder navigieren Sie zum
+  drücken Sie NVDA+2 (Zahl zwei) oder navigieren Sie zum
   NVDA-Menü/Einstellungen/Tastatur-Einstellungen und aktivieren Sie das
   Kontrollkästchen für Zeichen ansagen; gehen Sie zu
   LAMBDA>Einstellungen>Voice paramethers (Stimmparameter) und stellen Sie
   sicher, dass das Kontrollkästchen "echo" eingeschaltet ist, andernfalls
-  wird NVDA beim Tippen nichts von der Sprach-Platform empfangen. Und
-  fertig, NVDA wird geschriebene Zeichen sprechen! Aber keine Sorge, dies
-  gilt nur in LAMBDA- oder seinen speziellen Fenstern. Ansonsten werden die
-  Einstellungen für den Rest der Anwendungen so belassen, wie sie waren.
+  wird NVDA beim Tippen nichts von der Sprach-Platform empfangen. Danach
+  wird NVDA geschriebene Zeichen aussprechen! Aber keine Sorge, dies gilt
+  nur in LAMBDA oder seinen speziellen Fenstern. Ansonsten werden die
+  Einstellungen für den Rest der Anwendungen nicht verändert.
 
 ## Mailliste für die LAMBDA-Erweiterung:
 
-Um Fehler oder Vorschläge mittzuteilen oder wenn Sie etwas beitragen
-möchten, können Sie die Erweiterungsgrupe abonnieren (in Englisch).  Sie
-können sich auf der folgenden Website anmelden:
-<https://groups.io/g/lambda-nvda>.
+Um Fehler oder Vorschläge mittzuteilen oder wenn Sie mitwirken möchten,
+können Sie die englische Lambda-Entwicklungsgruppe abonnieren.  Sie können
+sich auf der folgenden Website anmelden: <https://groups.io/g/lambda-nvda>.
 
 ## Änderungsnotizen
 
@@ -211,7 +211,7 @@ minimieren.
 
 ### Version 1.2.0 (development)[Entwicklerversion]
 
-Diese Version wurde nicht als Stabil veröffentlich, da die Version 1.2.1
+Diese Version wurde nicht als Stabil veröffentlicht, da die Version 1.2.1
 viele signifikante Verbesserungen beinhaltete.
 
 * Neue und aktualisierte Lokalisierungen.
