@@ -192,7 +192,7 @@ Entwicklungsstand. Die aktuelle Entwicklerversion ist nicht enthalten, da
 sie weitere Änderungen haben könnte, bevor sie als stabil gekennzeichnet
 oder als Kandidat verworfen wird.
 
-### Version 1.2.1a (stable)[stabil]
+### Version 1.2.1a (stabil)
 
 Diese Aktualisierung ist als langfristiges Support-Release gedacht. Das
 bedeutet, dass es bis mindestens Juni 2018 keine andere stabile Version als
@@ -202,21 +202,21 @@ minimieren.
 
 * Neue Sprachen. Aktualisierte Übersetzungen.
 
-### Version 1.2.1 (stable)
+### Version 1.2.1 (stabil)
 
 * Die Kompatibilität mit der Art und Weise, wie NVDA 2017.3 die
   Brailleschrift verwaltet, wurde hinzugefügt. Abwärtskompatibilität bleibt
   bestehen.
 * Viele Braille-Probleme wurden behoben.
 
-### Version 1.2.0 (development)[Entwicklerversion]
+### Version 1.2.0 (Testversion)
 
 Diese Version wurde nicht als Stabil veröffentlicht, da die Version 1.2.1
 viele signifikante Verbesserungen beinhaltete.
 
 * Neue und aktualisierte Lokalisierungen.
 
-### Version 1.1.8 (stable)
+### Version 1.1.8 (stabil)
 
 * Erste stabile Version
 
