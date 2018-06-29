@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lambda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lambda 1.1.8\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2017-06-20 06:07+1000\n"
+"PO-Revision-Date: 2018-06-28 07:44+0200\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
+
+#. Translators: Message presented in input help mode.
+msgid "Shows a dialog to revert lambda profile options to the default."
+msgstr ""
+"Viser en dialogboks til at gendanne Lambda-profilindstillinger til deres "
+"standard."
+
+#. Translators: this is a custom implementation of the globalCommands gesture, it doesn't support spelling.
+msgid "Reports the current line under the application cursor."
+msgstr "Oplyser den aktuelle linje ved applikationsmarkøren."
+
+#. Translators: Lambda can't read from the current caret position, the implementation of sayAll provided starts reading from the top of the document.
+msgid "reads from the beginning of the document up to the end of the text."
+msgstr "læser fra starten af dokumentet til slutningen af teksten."
+
+#. Translators: this is a custom implementation of the globalCommands gesture.
+msgid "Announces the current selection in edit controls and documents."
+msgstr "Oplyser den aktuelle markering i edit-kontroller og dokumenter."
+
+#. This script duplicates the current line and announce it
+msgid "Duplicate the current line and sets the cursor to the new line."
+msgstr "Duplikere den aktuelle linje og placerer markøren på den næste linje."
+
+#. Translators: This determines whether to use API or DisplayMode to render the editor window on a braille display. It is a toggle (on/off)
+msgid "flat mode "
+msgstr "Flat mode"
+
+#. This script set the desired textInfo for braille, when flat mode is on, the LambdaEditorFlatTextInfo is used, otherwise the LambdaEditorTextInfo is set.
+msgid "Toggle the braille flat mode on or off."
+msgstr "Slå flat mode til punkt til og fra"
+
+msgid ""
+"Duplicate lines using control+d shortcut may causes error or stability "
+"issues while using Lambda with NVDA.\n"
+"Please consider using the NVDA+D shortcut instead."
+msgstr ""
+"Duplikering af linjer ved hjælp af genvejen Ctrl+D kan forårsage fejl eller "
+"stabilitetsproblemer, mens du bruger Lambda med NVDA.\n"
+"Overvej at bruge genvejen NVDA+D i stedet."
+
+#. Translators: This string is the file name of the Lambda braille table for the translated language. The file should be present in the "brailleTables" directory in this addon. The default is the italian braille translation table.
+msgid "lambda-ita.utb"
+msgstr "lambda-ita.utb"
+
+#. Translators: This is the label for the Quick Profile Wizard dialog.
+#. This dialog helps the user to reset relevant profile options without deleting his custom settings.
+msgid "Revert LAMBDA Profile Wizard"
+msgstr "Guiden Gendan Lambda-profil"
+
+#. Translators: This is the static text of the Quick Profile Wizard dialog.
+msgid ""
+"Choose which options you want to reset to the default value for the Lambdas "
+"profile"
+msgstr ""
+"Vælg hvilke indstillinger du vil nulstille til standardværdien for Lambdas "
+"profile"
+
+#. Translators: This is the label for a checkbox in the
+#. Quick Profile Wizard dialog.
+#, python-format
+msgid "Keep the LAMBDA braille table for the current language (%s)"
+msgstr "Behold Lambda-punkttabel for det aktuelle sprog (%s)"
+
+#. Translators: This is the label for a checkbox in the
+#. Quick Profile Wizard dialog.
+msgid "Set the braille cursor to tether the focus"
+msgstr "Indstil punktmarkøren til at følge fokus"
+
+#. Translators: This is the label for a checkbox in the
+#. Quick Profile Wizard dialog.
+msgid "Disable the Braille reading by paragraph"
+msgstr "Deaktiver læsning af punktskrift ved afsnit"
+
+#. Translators: This is the label for a checkbox in the
+#. Quick Profile Wizard dialog.
+msgid "Disable word wrappping of the braille line"
+msgstr "Deaktiver orddeling af punktskriftlinjen"
+
+#. Translators: title of the message box that appears when the user is installing the addon and an older version prevents the update to be completed.
+msgid "Incompatible version of the addon detected"
+msgstr "Inkompatibel version af tilføjelse registreret"
+
+#. Translators: text of the message box that appears when the user is installing the addon and an older version prevents the update to be completed.
+msgid ""
+"An old, incompatible version of this addon has been detected.\n"
+"This prevents the installation to be completed.\n"
+"Please uninstall the previous version before proceeding with the Lambda "
+"addon setup.\n"
+msgstr ""
+"En gammel, inkompatibel version af denne tilføjelse er blevet registreret. "
+"Dette forhindrer installationen i at blive gennemført. Afinstaller venligst "
+"den tidligere version, før du fortsætter med installationen af Lambda.\n"
+
+#. Translators: title of the message box that appears when user is installing the addon in NVDA and a "lambda" profile is already present.
+msgid "lambda profile already exists"
+msgstr "Lambda-profil findes allerede"
+
+#. Translators: text of the message box that appears when user is installing the addon in NVDA and a "lambda" profile is already present.
+msgid ""
+"Another profile named \"lambda\" is already present in your NVDA "
+"configuration. \n"
+"This may prevents the addon on create and configure the lambda profile "
+"correctly.\n"
+"Please review default options for this addon using the Revert LAMBDA Profile "
+"Wizard (pressing nvda+alt+r) while the Lambda Application is active.\n"
+"Press OK to complete the addon Setup.\n"
+msgstr ""
+"En anden profil med navnet \"lambda\" er allerede til stede i din NVDA-"
+"konfiguration. Dette kan forhindre tilføjelsen i at oprette og konfigurere "
+"Lambda-profilen korrekt. Gennemgå standardindstillingerne for denne "
+"tilføjelse ved hjælp af Guiden Gendan Lambda-profil (tryk på NVDA+Alt+R), "
+"mens Lambda-programmet er aktivt. Tryk på OK for at afslutte opsætningen af "
+"tilføjelsen.\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Lambda math editor addon"
+msgstr "Tilføjelse til Lambda Math Editor"
+
+#. Add-on description: can span multiple lines with """ syntax """
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"This addon provides access to the Lambda math editor with both braille and "
+"speech support."
+msgstr ""
+"Denne addon giver adgang til Lambda math editor med understøttelse af både "
+"braille og tale."
