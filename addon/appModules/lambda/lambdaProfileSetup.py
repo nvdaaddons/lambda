@@ -3,6 +3,7 @@
 #See the file COPYING for more details.
 #Copyright (C) 2016-2017 Alberto Zanella <lapostadialberto@gmail.com>
 
+brailleTablesLegacyImpl = False
 import config
 import os
 import globalVars
@@ -10,8 +11,13 @@ import braille
 import addonHandler
 import sharedMessages as shMsg
 import gui
+from gui import guiHelper
 from gui.settingsDialogs import SettingsDialog
 import wx
+try :
+	import brailleTables
+except ImportError :
+	brailleTablesLegacyImpl = True #Backward compatibility NVDA < 2017.3
 
 addonHandler.initTranslation()
 
@@ -20,7 +26,6 @@ SIXDOTS_APP = "app:sixdots"
 
 #Translators: This string is the file name of the Lambda braille table for the translated language. The file should be present in the "brailleTables" directory in this addon. The default is the italian braille translation table.
 TABLE_NAME = _("lambda-ita.utb")
-
 
 # Check whether the lambda profile already exists
 def profileExists() :
@@ -64,16 +69,40 @@ def setDefaultBraillevalues(brlcfg,translationTable = True,tetherTo = True,readB
 	if readByParagraph : brlcfg["readByParagraph"] = False
 	if wordWrap : brlcfg["wordWrap"]=False
 
+#Contains custom braille tables for lambda
+_lambdaBrailleTables = None
+def getLambdaBrailleTables() :
+	global _lambdaBrailleTables
+	if _lambdaBrailleTables == None :
+		_lambdaBrailleTables = tuple((_getBrlTablePath(file),file,False,) for file in os.listdir(_getBrlTablesDir()) if os.path.isfile(os.path.join(_getBrlTablesDir(), file)) and file.startswith("lambda-"))
+	return _lambdaBrailleTables
+
 # Adds the braille table to the list in braille settings dialog
 def addBrailleTableToGUI():
+	if brailleTablesLegacyImpl :
+		return legacy_addBrailleTableToGUI()
+	#Retrieves all tables in addon directory with prefix 'lamda-' and adds them to the global collection
+	for table in getLambdaBrailleTables() :
+			brailleTables.addTable(table[0],table[1],False,True,False)	
+
+
+#Deprecated - Here for compatibility with NVDA < 2017.3
+def legacy_addBrailleTableToGUI():
 	#Retrieves all tables in addon directory with prefix 'lamda-'
-	newTables = tuple((_getBrlTablePath(file),file,False,) for file in os.listdir(_getBrlTablesDir()) if os.path.isfile(os.path.join(_getBrlTablesDir(), file)) and file.startswith("lambda-"))
-	braille.TABLES = braille.TABLES + newTables
+	braille.TABLES = braille.TABLES + getLambdaBrailleTables()
 
 # Removes the braille table to the list in braille settings dialog
 def removeBrailleTableToGUI():
+	if brailleTablesLegacyImpl :
+		return legacy_removeBrailleTableToGUI()
+	for table in getLambdaBrailleTables() :
+		brailleTables._tables.pop(table[0])
+
+#Deprecated - Here for compatibility with NVDA < 2017.3
+def legacy_removeBrailleTableToGUI():
 	braille.TABLES = tuple(table for table in braille.TABLES if not table[1].startswith("lambda-"))
 
+	
 # Retrieves the current absolute path for the braille table and updates the profile entry (useful for portable NVDA)
 def updateTablePath() :
 	lp = config.conf._getProfile(PROFILE_NAME,True)
@@ -103,30 +132,26 @@ class QuickProfileWizardDialog(SettingsDialog):
 	title = _("Revert LAMBDA Profile Wizard")
 
 	def makeSettings(self, settingsSizer):
+		sHelper=guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		# Translators: This is the static text of the Quick Profile Wizard dialog.
 		msgIntro=_("Choose which options you want to reset to the default value for the Lambdas profile")
-		self.introStxt=wx.StaticText(self,-1,label=msgIntro)
-		settingsSizer.Add(self.introStxt,flag=wx.BOTTOM)
+		self.introStxt=sHelper.addItem(wx.StaticText(self,label=msgIntro))
 		# Translators: This is the label for a checkbox in the
 		# Quick Profile Wizard dialog.
-		self.defaultTranslationTableCheckBox=wx.CheckBox(self,wx.NewId(),label=_("Keep the LAMBDA braille table for the current language (%s)") % TABLE_NAME)
+		self.defaultTranslationTableCheckBox=sHelper.addItem(wx.CheckBox(self,label=_("Keep the LAMBDA braille table for the current language (%s)") % TABLE_NAME))
 		self.defaultTranslationTableCheckBox.SetValue(True)
-		settingsSizer.Add(self.defaultTranslationTableCheckBox,border=10,flag=wx.BOTTOM)
 		# Translators: This is the label for a checkbox in the
 		# Quick Profile Wizard dialog.
-		self.brailleTetherToFocusCheckBox=wx.CheckBox(self,wx.NewId(),label=_("Set the braille cursor to tether the focus"))
+		self.brailleTetherToFocusCheckBox=sHelper.addItem(wx.CheckBox(self,label=_("Set the braille cursor to tether the focus")))
 		self.brailleTetherToFocusCheckBox.SetValue(True)
-		settingsSizer.Add(self.brailleTetherToFocusCheckBox,border=10,flag=wx.BOTTOM)
 		# Translators: This is the label for a checkbox in the
 		# Quick Profile Wizard dialog.
-		self.disableReadByParagraphCheckBox=wx.CheckBox(self,wx.NewId(),label=_("Disable the Braille reading by paragraph"))
+		self.disableReadByParagraphCheckBox=sHelper.addItem(wx.CheckBox(self,label=_("Disable the Braille reading by paragraph")))
 		self.disableReadByParagraphCheckBox.SetValue(True)
-		settingsSizer.Add(self.disableReadByParagraphCheckBox,border=10,flag=wx.BOTTOM)
 		# Translators: This is the label for a checkbox in the
 		# Quick Profile Wizard dialog.
-		self.disableBrailleWordWrapCheckBox=wx.CheckBox(self,wx.NewId(),label=_("Disable word wrappping of the braille line"))
+		self.disableBrailleWordWrapCheckBox=sHelper.addItem(wx.CheckBox(self,label=_("Disable word wrappping of the braille line")))
 		self.disableBrailleWordWrapCheckBox.SetValue(True)
-		settingsSizer.Add(self.disableBrailleWordWrapCheckBox,border=10,flag=wx.BOTTOM)
 
 	def postInit(self):
 		self.defaultTranslationTableCheckBox.SetFocus()
