@@ -6,7 +6,7 @@
 
 Ce projet est un module complémentaire pour le logiciel LAMBDA. Il s'inspire du travail de Peter Lecky de l'Université Comenius. 
 LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) est un logiciel qui aide les personnes aveugles à lire et écrire les mathématiques en utilisant un afficheur braille et/ou un synthétiseur vocal.
-LAMBDA est le résultat d'un EU-Project. Pour plus d'informations sur LAMBDA veuillez visiter [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  
+LAMBDA est le résultat d'un EU-Project. Pour plus d'informations sur LAMBDA veuillez visiter [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  
 Cette version du module contient des tables braille pour l'Italien et
 l'Espagnol Et son interface est disponible dans la plupart des langues
 officielles de NVDA, car il est traduit par les traducteurs de la
@@ -187,6 +187,14 @@ complémentaire. À côté du numéro de version, entre parenthèses, se trouve 
 statut du développement. La version en cours de développement n'est pas
 incluse car elle peut subir des modifications jusqu'à ce qu'elle soit
 marquée comme stable ou rejetée en tant que candidate.
+
+### Version 1.2.2 (stable)
+
+* Improved compatibility with WX Python version 4 (introduced with NVDA
+  2018.3). Warning related with wx.NewId() is no longer displayed in debug
+  log.
+* Implemented guiHelper to enhance dialogs's appearance.
+* Nouvelles régions. Traductions mises à jour.
 
 ### Version 1.2.1a (stable)
 

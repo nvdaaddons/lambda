@@ -7,7 +7,7 @@
 
 Questo add-on permette di utilizzare il software LAMBDA con NVDA. Deriva da un lavoro precedente di Peter Lecky della Comenius University ed è stato studiato e realizzato per rendere l'accesso all'ambiente LAMBDA il più semplice e simile a ciò che già avviene con altri screen reader.
 LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) è un programma che aiuta i non vedenti a leggere  e scrivere matematica utilizzando o un display braille, o la sintesi vocale, o entrambi contemporaneamente.
-Per maggiori informazioni sul software LAMBDA si invita a consultare: http://www.lambdaproject.org/it/ e http://veia.it/
+Per maggiori informazioni sul software LAMBDA si invita a consultare: https://www.lambdaproject.org/it/ e https://veia.it/
 L'attuale versione del componente aggiuntivo dispone di tabelle braille
 adattate per l'uso con Lambda sia per l'Italiano che per lo Spagnolo. La
 traduzione delll'addon è disponibile in svariate lingue grazie al team di
@@ -185,6 +185,14 @@ parentesi, è lo stato di sviluppo. L'attuale versione di sviluppo non è
 inclusa, giacché potrebbe avere cambiamenti fino a quando non è segnato come
 stabile o revocata a ricevere lo stato della versione candidata.
 
+### Version 1.2.2 (stable)
+
+* Improved compatibility with WX Python version 4 (introduced with NVDA
+  2018.3). Warning related with wx.NewId() is no longer displayed in debug
+  log.
+* Implemented guiHelper to enhance dialogs's appearance.
+* Nuove lingue. Traduzioni aggiornate.
+
 ### Versione 1.2.1a (stabile)
 
 Questo aggiornamento è da considerarsi a tutti gli effetti una versione con
@@ -216,6 +224,6 @@ Questa versione non è stata pubblicata come stabile, giacché la versione
 [[!tag dev stable]]
 [[!tag dev]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=lambda
+[1]: https://addons.nvda-project.org/files/get.php?file=lambda
 
-[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev

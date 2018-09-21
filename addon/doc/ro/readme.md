@@ -6,7 +6,7 @@
 
 Acest proiect este un modul de aplicație pentru programul LAMBDA. A fost inspirat de munca lui Peter Lecky la universitatea Comenius. 
 LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) este un soft care ajută persoanele nevăzătoare să citească și să scrie matematică utilizând un afișaj braille și/sau o sinteză vocală.
-LAMBDA este rezultatul unui proiect european. Pentru mai multe informații despre el vă rugăm să vizitați [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  
+LAMBDA este rezultatul unui proiect european. Pentru mai multe informații despre el vă rugăm să vizitați [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  
 Versiunea actuală a suplimentului are tabele braille pentru limbile italiană
 și spaniolă, iar interfața sa este disponibilă în majoritatea limbilor
 oficiale ale NVDA-ului, deoarece este tradusă de comunitatea de traduceri a
@@ -185,6 +185,14 @@ de dezvoltare. Actuala versiune în dezvoltare nu este inclusă, întrucât ar
 putea să aibă modificări până când va fi marcată ca stabilă sau revocată,
 urmând ca mai apoi să primească statutul d versiune candidată.
 
+### Version 1.2.2 (stable)
+
+* Improved compatibility with WX Python version 4 (introduced with NVDA
+  2018.3). Warning related with wx.NewId() is no longer displayed in debug
+  log.
+* Implemented guiHelper to enhance dialogs's appearance.
+* Limbi noi. Traduceri actualizate.
+
 ### Versiunea 1.2.1a (stabilă)
 
 Această actualizare se dorește afi una cu suport pe termen lung. Asta
@@ -213,6 +221,6 @@ inclus reparări majore.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=lambda
+[1]: https://addons.nvda-project.org/files/get.php?file=lambda
 
-[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev

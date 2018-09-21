@@ -6,7 +6,7 @@
 
 Este proxecto é un módulo de aplicación para a aplicación Lambda. foi inspirado polo traballo de Peter Lecky na Comenius University.
 LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis, acceso lineal ás matemáticas mediante pantallas braille e síntesis de fala) é un programa que axuda ás persoas cegas a eer e escribir matemáticas utilizando unha pantalla braile e/ou un sintetizador de audio.
-LAMBDA é o resultado dun proxecto EU. Para máis información acerca de LAMBDA por favor visite [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  
+LAMBDA é o resultado dun proxecto EU. Para máis información acerca de LAMBDA por favor visite [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  
 A versión actual deste complemento ten táboas braille só para as linguas
 italiana e española pero a súa interface está dispoñible na maioría de
 idiomas oficiais do NVDA, debido a que o complemento é traducido pola
@@ -186,6 +186,14 @@ estado de desenvolvemento. A versión actualmente en desenvolvemento non se
 inclúe xa que podería haber cambios ata que ésta sexa marcada coma estable
 ou descartada coma candidata.
 
+### Version 1.2.2 (stable)
+
+* Improved compatibility with WX Python version 4 (introduced with NVDA
+  2018.3). Warning related with wx.NewId() is no longer displayed in debug
+  log.
+* Implemented guiHelper to enhance dialogs's appearance.
+* Novas linguas. Traducións actualizadas.
+
 ### Versión 1.2.1a (estable)
 
 Esta actualización foi concebida coma unha versión con soporte durante largo
@@ -215,6 +223,6 @@ importantes.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=lambda
+[1]: https://addons.nvda-project.org/files/get.php?file=lambda
 
-[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev
