@@ -190,10 +190,10 @@ marquée comme stable ou rejetée en tant que candidate.
 
 ### Version 1.2.2 (stable)
 
-* Improved compatibility with WX Python version 4 (introduced with NVDA
-  2018.3). Warning related with wx.NewId() is no longer displayed in debug
-  log.
-* Implemented guiHelper to enhance dialogs's appearance.
+* Amélioration de la compatibilité avec WX Python version 4 (introduit avec
+  NVDA 2018.3). Avertissement lié à wx.NewId() n'est plus affiché dans le
+  niveau de journalisation débogage.
+* Support de guiHelper pour améliorer l'apparence des dialogues.
 * Nouvelles régions. Traductions mises à jour.
 
 ### Version 1.2.1a (stable)

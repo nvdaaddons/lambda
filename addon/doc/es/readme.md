@@ -19,7 +19,7 @@ más abajo) o subscribirse a la lista de correo del proyecto.
 
 ### [Repositorio Oficial en GitHub](https://github.com/lambda-nvda/lambdaNvda/)
 
-## Características del complemento
+## Características del complemento:
 
 ### Soporte para habla:
 
@@ -27,7 +27,7 @@ más abajo) o subscribirse a la lista de correo del proyecto.
 * Soporte para habla natural de las fórmulas matemáticas usando el motor
   interno de LAMBDA (p.ej. "raíz compuesta 3 de raíz compuesta 3 x más 24,
   fin de raíz, menos 3 igual 0");
-* Lectura por carácter, palabra, línea y Verbalizar Todo implementada.
+* lectura por carácter, palabra, línea y Verbalizar Todo implementada;
 * Habla cuando un bloque de texto está seleccionado o es extendido  (usando
   CTRL+B y SHIFT+CTRL+B);
 * Habla al moverse por el texto con comandos de Windows y con comandos
@@ -65,7 +65,7 @@ más abajo) o subscribirse a la lista de correo del proyecto.
   estable, ya que NVDA usa Windows API para obtenerla. De modo que, cuando
   el usuario se mueve entre espacios en blanco el cursor en la pantalla
   braille no seguirá al cursor real hasta que un espacio no en blanco sea
-  insertado por el usuario. 
+  insertado por el usuario.
 
 El "Modo plano" está activo por defecto. Puede alternar el "Modo plano"
 entre activado y desactivado pulsando NVDA+SHIFT+F.
@@ -160,8 +160,8 @@ las siguientes situaciones:
 
 ## Consejos útiles
 
-Este es un conjunto de consejos que le ayudará a usar este complemento de
-una manera más eficiente:
+Este es un conjunto de consejos que te ayudarán a usar este complemento de
+una manera más eficiente.
 
 * Lectura caracter por caracter: normalmente, cuando está escribiendo
   matemáticas le gusta que NVDA diga aquello que está escribiendo caracter
@@ -190,12 +190,13 @@ de desarrollo. La versión actualmente en desarrollo no se incluye ya que
 podría haber cambios hasta que sea marcada como estable o descartada como
 candidata.
 
-### Version 1.2.2 (stable)
+### Versión 1.2.2 (estable)
 
-* Improved compatibility with WX Python version 4 (introduced with NVDA
-  2018.3). Warning related with wx.NewId() is no longer displayed in debug
-  log.
-* Implemented guiHelper to enhance dialogs's appearance.
+* Se ha mejorado la compatibilidad con WXPython versión 4 (introducida en
+  NVDA 2018.3). La advertencia relacionada con wx.NewID() ya no se muestra
+  en el registro de depuración.
+* Ahora se utiliza el módulo guiHelper para mejorar la apariencia visual de
+  los diálogos.
 * Nuevos idiomas. Traducciones actualizadas.
 
 ### Versión 1.2.1A (estable)
@@ -212,7 +213,7 @@ cambios durante el curso académico.
 
 * Añadida compatibilidad con la manera que NVDA 2017.3 usa para administrar
   el Braille. Compatibilidad con versiones antiguas mantenida.
-* Arregladas varias incidencias relacionadas con el braille.
+* arregladas varias incidencias relacionadas con el braille.
 
 ### Versión 1.2.0 (desarrollo)
 
