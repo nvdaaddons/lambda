@@ -185,12 +185,12 @@ de dezvoltare. Actuala versiune în dezvoltare nu este inclusă, întrucât ar
 putea să aibă modificări până când va fi marcată ca stabilă sau revocată,
 urmând ca mai apoi să primească statutul d versiune candidată.
 
-### Version 1.2.2 (stable)
+### Versiunea 1.2.2 (stabilă)
 
-* Improved compatibility with WX Python version 4 (introduced with NVDA
-  2018.3). Warning related with wx.NewId() is no longer displayed in debug
-  log.
-* Implemented guiHelper to enhance dialogs's appearance.
+* S-a îmbunătățit compatibilitatea cu WX Python versiunea 4 (introdusă în
+  NVDA 2018.3). Avertizare privind wx.NewId() nu mai este afișat în jurnalul
+  diagnosticării.
+* S-a implementat guiHelper pentru a îmbunătăți aspectul dialogurilor.
 * Limbi noi. Traduceri actualizate.
 
 ### Versiunea 1.2.1a (stabilă)
