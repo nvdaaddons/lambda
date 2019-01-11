@@ -1,13 +1,12 @@
-# Componente aggiuntivo Lambda per NVDA #
-[[!meta title="Lambda Add-On for NVDA"]]
+# Lambda componente aggiuntivo per NVDA #
 
 * Autori: Alberto Zanella e il team Lambda-NVDA
-* Download [stable version][1]
-* Download [development version][2]
+* Scarica la [versione stabile][1]
+* Scarica la [versione in sviluppo][2]
 
-Questo add-on permette di utilizzare il software LAMBDA con NVDA. Deriva da un lavoro precedente di Peter Lecky della Comenius University ed è stato studiato e realizzato per rendere l'accesso all'ambiente LAMBDA il più semplice e simile a ciò che già avviene con altri screen reader.
-LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) è un programma che aiuta i non vedenti a leggere  e scrivere matematica utilizzando o un display braille, o la sintesi vocale, o entrambi contemporaneamente.
-Per maggiori informazioni sul software LAMBDA si invita a consultare: https://www.lambdaproject.org/it/ e https://veia.it/
+Questo componente aggiuntivo permette di utilizzare il software LAMBDA con NVDA. Deriva da un lavoro precedente di Peter Lecky della Comenius University ed è stato studiato e realizzato per rendere l'accesso all'ambiente LAMBDA il più semplice e simile a ciò che già avviene con altri screen reader.
+LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) è un programma che aiuta i non vedenti a leggere  e scrivere matematica utilizzando  un display braille, o una sintesi vocale, o entrambi contemporaneamente.
+LAMBDA è il risultato EU-Project. Per maggiori informazioni sul software LAMBDA consultare: [https://www.lambdaproject.org/](https://www.lambdaproject.org/). 
 L'attuale versione del componente aggiuntivo dispone di tabelle braille
 adattate per l'uso con Lambda sia per l'Italiano che per lo Spagnolo. La
 traduzione delll'addon è disponibile in svariate lingue grazie al team di
@@ -15,8 +14,7 @@ traduzione internazionale. Se non sei un utente italiano e vorresti
 includere il porting della tua tabella braille nel progetto, contatta
 l'autore (vedi sotto), oppure iscriviti alla mailing list del progetto.-
 
-**Nota**: Si precisa che lo sviluppo di questo add-on è avvenuto in maniera volontaria e del tutto indipendente dall'azienda rivenditore del prodotto LAMBDA, con la quale l'autore non intrattiene alcun rapporto di lavoro e/o di collaborazione. Per richieste in merito al prodotto si invita pertanto a contattare il servizio di supporto tecnico messo a disposizione dal fornitore del prodotto.
-Per ulteriori informazioni sull'addon, richieste o altro è possibile contattare l'autore tramite email o su GitHub.
+**Nota**: Si precisa che lo sviluppo di questo componente aggiuntivo è avvenuto in maniera volontaria e del tutto indipendente dall'azienda rivenditore del prodotto LAMBDA, con la quale l'autore non intrattiene alcun rapporto di lavoro e/o di collaborazione. Per richieste in merito al prodotto si invita pertanto a contattare il servizio di supporto tecnico messo a disposizione dal fornitore del prodotto.Per ulteriori informazioni sull'addon, richieste o altro è possibile contattare l'autore tramite email o inviando una "issue" su GitHub.
 
 ### [Repository Github ufficiale: ](https://github.com/lambda-nvda/lambdaNvda/)
 
@@ -187,10 +185,11 @@ stabile o revocata a ricevere lo stato della versione candidata.
 
 ### Version 1.2.2 (stable)
 
-* Improved compatibility with WX Python version 4 (introduced with NVDA
-  2018.3). Warning related with wx.NewId() is no longer displayed in debug
-  log.
-* Implemented guiHelper to enhance dialogs's appearance.
+* Aggiunta la compatibilità con WX Python versione 4 (introdotta in NVDA
+  2018.3). gli avvisi  riguardo wx.NewId() non verranno più  visualizzati
+  nel debug log.
+* Introdotto il modulo guiHelper per una migliore visualizzazione delle
+  finestre di dialogo.
 * Nuove lingue. Traduzioni aggiornate.
 
 ### Versione 1.2.1a (stabile)
