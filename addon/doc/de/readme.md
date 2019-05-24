@@ -1,8 +1,8 @@
 # Lambda-Erweiterung für NVDA #
 
 * Authoren: Alberto Zanella und das Lambda-NVDA-Team.
-* [stabile Version herunterladen][1]
-* [Testversion herunterladen][2]
+* [Stabile Version herunterladen][1]
+* [Entwicklerversion herunterladen][2]
 
 Dieses Projekt ist ein AppModul für die LAMBDA-Software. Es wurde durch die Arbeit von Peter Lecky an der Comenius Universität inspiriert.
 LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) ist eine Software, die blinden Menschen das Lesen und Schreiben mathematischer Inhalte mit Hilfe einer Braillezeile und/oder eines Bildschirmlesers ermöglicht. LAMBDA ist das Ergebnis eines durch Fördermittel der EU durchgeführten Projektes. Weitere Informationen über LAMBDA finden Sie unter [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  
