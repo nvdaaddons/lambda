@@ -190,6 +190,14 @@ de desarrollo. La versión actualmente en desarrollo no se incluye ya que
 podría haber cambios hasta que sea marcada como estable o descartada como
 candidata.
 
+### Versión 1.3.0 (estable)
+
+* Soporte para versiones recientes de NVDA (soporte para Python 3)
+* Resuelto un problema por el que al pulsar la orden de línea NVDA+d dos
+  veces en una línea en blanco se pegaba el contenido del
+  portapapeles. Ahora, al pulsar NVDA+d en una línea en blanco, se añade una
+  nueva línea en blanco tal y como se espera.
+
 ### Versión 1.2.2 (estable)
 
 * Se ha mejorado la compatibilidad con WXPython versión 4 (introducida en

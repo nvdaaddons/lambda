@@ -183,6 +183,13 @@ parentesi, è lo stato di sviluppo. L'attuale versione di sviluppo non è
 inclusa, giacché potrebbe avere cambiamenti fino a quando non è segnato come
 stabile o revocata a ricevere lo stato della versione candidata.
 
+### Version 1.3.0 (stable)
+
+* Support for newer version of NVDA (Support for Python 3)
+* Solved an issue while pressing duplicate line command NVDA+d in a blank
+  line caused clipboard content to be pasted. Now when you press NVDA+d and
+  you are in a blank line, a new blank line appears as expected.
+
 ### Version 1.2.2 (stable)
 
 * Aggiunta la compatibilità con WX Python versione 4 (introdotta in NVDA

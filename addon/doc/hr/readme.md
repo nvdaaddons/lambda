@@ -176,6 +176,13 @@ broja verzije se u zagradama nalaze informacije o stanju razvoja. Trenutačno
 razvojno izdanje nije uključeno. Ono bi moglo sadržati promjene sve dok se
 ne označi kao stabilno izdanje ili dok se ne odbaci kao kandidat.
 
+### Version 1.3.0 (stable)
+
+* Support for newer version of NVDA (Support for Python 3)
+* Solved an issue while pressing duplicate line command NVDA+d in a blank
+  line caused clipboard content to be pasted. Now when you press NVDA+d and
+  you are in a blank line, a new blank line appears as expected.
+
 ### Verzija 1.2.2 (stabilna)
 
 * Poboljšana je kompatibilnost s WX Python verzija 4 (uveden u NVDA
