@@ -176,12 +176,13 @@ broja verzije se u zagradama nalaze informacije o stanju razvoja. Trenutačno
 razvojno izdanje nije uključeno. Ono bi moglo sadržati promjene sve dok se
 ne označi kao stabilno izdanje ili dok se ne odbaci kao kandidat.
 
-### Version 1.3.0 (stable)
+### Verzija 1.3.0 (stabilna)
 
-* Support for newer version of NVDA (Support for Python 3)
-* Solved an issue while pressing duplicate line command NVDA+d in a blank
-  line caused clipboard content to be pasted. Now when you press NVDA+d and
-  you are in a blank line, a new blank line appears as expected.
+* Podrška za noviju NVDA verziju (podrška za Python 3).
+* Riješen je problem, pri kojem je pritiskanje tipki NVDA+d u praznom retku
+  prouzročilo umetanje sadržaja međuspremnika. Kad sada pritisnete NVDA+d i
+  nalazite se u praznom retku, pojavljuje se novi prazan redak kao što se i
+  očekuje.
 
 ### Verzija 1.2.2 (stabilna)
 
