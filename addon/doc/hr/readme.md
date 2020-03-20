@@ -27,8 +27,8 @@ autoru (vidi dolje) ili se prijavite na mailing listu projekta.
   24, zatvori korijen, minus 3 jednako 0”;
 * Implementirano je čitanje po znakovima, po riječima, po redcima i Izgovori
   sve;
-* Govori kad je blok teksta odabran ili proširen (koristeći CTRl+B i
-  SHIFT+CTRL+B);
+* Govori kad je blok teksta odabran ili proširen (koristeći KONTROL+B i
+  ŠIFT+KONTROL+B);
 * Govori tijekom kretanja u uređivaču teksta, korišteći standardne Windows
   naredbe i Lambda-specifične naredbe;
 * Podrška za dugi i kratki modus govora (moguće ih je odabrati korištenjem
@@ -65,7 +65,7 @@ autoru (vidi dolje) ili se prijavite na mailing listu projekta.
   nešto ne doda.
 
 Flat modus je standardno aktivan. Moguće ga je uključiti ili isključiti
-tipkama NVDA+SHIFT+F.
+tipkama NVDA+ŠIFT+F.
 
 Svakako preporučamo deaktivirati Flat modus, ako koristite prilagođene DPI
 vrijednosti u Windowsima (opcija za prilagođene veličine), posebno kad se u
@@ -74,8 +74,8 @@ postavkama ekrana, DPI vrijednosti postave na više od 96 dpi (veće od 100%).
 * Struktura dijaloških okvira je jednostavnija, uklonjene su informacije
   koje su se ponavljale;
 * Odabir će biti ispravno prikazan točkicama 7 i 8, a označavanje se
-  ispravno učitava pritiskanjem standardnih Windows naredbi (SHIFT+STRELICE)
-  ili određenih Lambda naredbi (CTRL+B, CTRL+B).
+  ispravno učitava pritiskanjem standardnih Windows naredbi (ŠIFT+STRELICE)
+  ili određenih Lambda naredbi (KONTROL+B, KONTROL+B).
 
 ## Prije upotrebe ovog dodatka.
 
@@ -130,9 +130,9 @@ Gdje :
 
 ## Tipkovnički prečaci za dodatak:
 
-* **NVDA+Shift+f**: Uključi ili isključi modus brajevog retka;
+* **NVDA+šift+f**: Uključi ili isključi modus brajevog retka;
 * **NVDA+alt+r**: Otvori čarobnjaka za vraćanje LAMBDA profila;
-* **NVDA+d**: Dupliciraj retke (koristite ovo umjesto control+d).
+* **NVDA+d**: Dupliciraj retke (koristite ovo umjesto kontrol+d).
 
 ## Poznati problemi:
 
