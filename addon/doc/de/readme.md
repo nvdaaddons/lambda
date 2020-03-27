@@ -40,7 +40,7 @@ oder abonnieren Sie die Projekt-Mailingliste.
 * Das Eingabenecho nutzt den Lambda-Text-Prozessor. Somit werden Symbole und
   Markierungen richtig angesagt.
 
-### Brailleunterstützung
+### Braille-Unterstützung:
 
 * Die Erweiterung installiert und aktiviert innerhalb des
   Benutzerprofilverzeichnisses eine eigene Braille-Tabelle. Diese Tabelle
@@ -130,7 +130,7 @@ wird automatisch ein Profil mit dem folgenden Formular erstellt:
 
 ```
 
-wo:
+Wo:
 
 * path-to-the-addon-brailleTable-dir : ist der absolute Pfad des
   Erweiterungsordners + "\Braille-Tabellen"
@@ -192,19 +192,19 @@ Entwicklungsstand. Die aktuelle Entwicklerversion ist nicht enthalten, da
 sie weitere Änderungen haben könnte, bevor sie als stabil gekennzeichnet
 oder als Kandidat verworfen wird.
 
-### Version 1.3.0 (stable)
+### Version 1.3.0 (stabil)
 
-* Support for newer version of NVDA (Support for Python 3)
-* Solved an issue while pressing duplicate line command NVDA+d in a blank
-  line caused clipboard content to be pasted. Now when you press NVDA+d and
-  you are in a blank line, a new blank line appears as expected.
+* Unterstützung für neuere Version von NVDA (Unterstützung für Python 3)
+* Problem behoben, wenn mittels NVDA+d eine leere Zeile dupliziert wurde,
+  wurde die Zwischenablage eingefügt. Nun wird die leere Zeile wie erwartet
+  dupliziert.
 
 ### Version 1.2.2 (stable)
 
 * Verbesserte Kompatibilität mit wxPython 4 (eingeführt mit NVDA
   2018.3). Warnung bezüglich mit wx.NewId() wird nicht länger mehr angezeigt
   im Debug-Protokoll.
-* guiHelper wurde implementiert, um das Erscheinungsbild der Dialoge zu
+* GuiHelper wurde implementiert, um das Erscheinungsbild der Dialoge zu
   verbessern.
 * Neue Sprachen. Aktualisierte Übersetzungen.
 
@@ -234,7 +234,7 @@ viele signifikante Verbesserungen beinhaltete.
 
 ### Version 1.1.8 (stabil)
 
-* Erste stabile Version
+* Erste stabile Version.
 
 [[!tag dev stable]]
 
