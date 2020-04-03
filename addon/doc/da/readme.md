@@ -18,7 +18,7 @@ kontakte forfatteren (se nedenfor) eller Tilmeld dig projektets postliste.
 
 ### [Officeielt Github Repository](https://github.com/lambda-nvda/lambdaNvda/)
 
-## Funktioner i tilføjelsespakken
+## Funktioner i tilføjelsespakken:
 
 ### Understøttelse for tale:
 
@@ -49,7 +49,7 @@ kontakte forfatteren (se nedenfor) eller Tilmeld dig projektets postliste.
 * Tilføjelsen opretter en NVDA-profile for en standardkonfiguration af
   punktskrift. Derfor er oversættelsestabellen kun indstillet til den
   tilpassede punkttabel, når Lambda er aktiv.
-* Dialoger og menuer er korrekt rapporteret på punkt
+* Dialoger og menuer er korrekt rapporteret på punkt.
 * Indholdet i redigeringsprogrammet er korrekt omsat til punkt. Derudover
   kan brugeren også navigere ved hjælp af panoreringsknapper eller
   markørsammenføringsknapper.
@@ -77,7 +77,7 @@ har skærmindstillinger med mere end 96 dpi (større end 100%).
   opdateret ved brug af Windows-kommandoer Skift-piletaster eller
   Lambda-specifikke kommandoer Ctrl+B og Ctrl+Skift+B.
 
-## Før du bruger denne tilføjelse
+## Før du bruger denne tilføjelse.
 
 Denne tilføjelse opretter en NVDA-profil ved navn "Lambda". Denne profil er
 associeret med filen "Lambda.exe". Profilen indstiller automatisk alle
@@ -177,7 +177,7 @@ udvikling. Den aktuelle udgave af udviklingsversionen er ikke inkluderet
 eftersom den kunne have ændringer, indtil den er markeret som stabil eller
 kasseres som kandidat.
 
-### Version 1.3.0 (stable)
+### Version 1.3.0 (stabil)
 
 * Support for newer version of NVDA (Support for Python 3)
 * Solved an issue while pressing duplicate line command NVDA+d in a blank
