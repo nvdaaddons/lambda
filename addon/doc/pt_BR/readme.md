@@ -47,7 +47,7 @@ com o porte da tabela braille em seu idioma, entre em contato com o autor
   com as do plug-in Lambda para JAWS (arquivo jbt). Por conseguinte,
   símbolos e marcadores são representados usando os mesmos padrões de
   pontos;
-* O complemento cria um perfil NVDA para uma configuração em braile
+* O complemento cria um perfil NVDA para uma configuração braille
   padrão. Por isso, a saída é configurada para a tabela braille
   personalizada somente quando o aplicativo Lambda está ativo;
 * Diálogos e menus são informados corretamente em braille;
