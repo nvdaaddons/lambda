@@ -53,23 +53,25 @@ kontakte forfatteren (se nedenfor) eller Tilmeld dig projektets postliste.
 * Indholdet i redigeringsprogrammet er korrekt omsat til punkt. Derudover
   kan brugeren også navigere ved hjælp af panoreringsknapper eller
   markørsammenføringsknapper.
-* Fra tilføjelssen version 1.1.0, vil det nu være muligt at gengive teksten
-  i Lambda-editor: "Flat mode" og "non-flat mode". Når "flat mode" er slået
-  til, vil NVDA benytte displaymodellen til at hente information fra
-  editoren samt bestemme markørens position. Dette er især nyttigt når
-  brugeren skal bevæge sig rundt på skærmen, selv når der er blanktegn. Når
-  "Flat mode" er slået fra, tekstgengivelse på punktdisplayet er mere
-  stabil, eftersom NVDA en Windows API til at hente tilsvarende
-  information. Hvis markøren dog flyttes hen på et blanktegn på slutningen
+* Fra version 1.1.0 af tilføjelsen, vil det nu være muligt at gengive
+  teksten i Lambda-editor på to måder: "Flad tilstand" og "ikke-flad
+  tilstand". Når "flad tilstand" er slået til, vil NVDA benytte
+  skærmmodellen til at hente information fra editoren samt bestemme
+  markørens position. Dette er især nyttigt, når brugeren skal bevæge sig
+  rundt på skærmen, selv når der er blanke tegn. Når "Flad tilstand" er
+  slået fra, vil tekstgengivelse på punktdisplayet fremkomme mere stabilt,da
+  NVDA i dette tilfælde benytter en Windows-API til at hente tilsvarende
+  information. Hvis markøren dog flyttes hen på et blankt tegn i slutningen
   af en linje, vil punktdisplayet ikke følge den aktuelle markør, hvis et
-  andet tegn end et blanktegn er skrevet af brugeren.
+  andet tegn end et blankt tegn er skrevet af brugeren.
 
-"Flat mode" er som standard aktiv. Du kan slå "flat mode" til eller fra ved
-at trykke på NVDA+Skift+F.
+"Flad tilstand" er som standard aktiv. Du kan slå dette til eller fra ved at
+trykke på NVDA+Shift+F.
 
-Vi anbefaler at du deaktivere "Flat mode", hvis du anvender brugerdefineret
-DPI i Windows (brugerdefinerede dimensioneringsindstillinger), især når du
-har skærmindstillinger med mere end 96 dpi (større end 100%).
+Vi anbefaler at du deaktivere "Flad tilstand", hvis du anvender
+brugerdefineret DPI i Windows (brugerdefinerede
+dimensioneringsindstillinger), især når du har skærmindstillinger med mere
+end 96 DPI (større end 100%).
 
 * Dialogboksenes struktur er nemmere, gentagne oplysninger er blevet
   fjernet;
@@ -82,7 +84,7 @@ har skærmindstillinger med mere end 96 dpi (større end 100%).
 Denne tilføjelse opretter en NVDA-profil ved navn "Lambda". Denne profil er
 associeret med filen "Lambda.exe". Profilen indstiller automatisk alle
 punktindstillinger. Dette inkludere den tilpassede oversættelsestabel,
-tøjret fokus og flat mode.
+hvordan fokus følges og flad tilstand.
 
 Hvis en eksisterende profil med samme navn befinder sig på dit system, skal
 du selv erstatte den, da tilføjelsespakken ikke vil gøre dette.
@@ -131,7 +133,7 @@ Hvor:
 
 ## Tilføjelsens tastaturgenveje:
 
-* **NVDA+Skift+F**: Slå braille flat mode til og fra;
+* **NVDA+Skift+F**: Slå flad tilstand for punkt til og fra;
 * **NVDA+alt+r**: Åben værktøjet "Revert Lambda Profile Wizard";
 * **NVDA+d**: Dupliker linjer (brug dette i stedet for Ctrl+D).)
 
@@ -149,7 +151,7 @@ rapporterer blanktegn. Denne logik kan mislykkes i følgende situationer:
 
 ## Nyttige råd
 
-Dette er et sæt råd, der hjælper dig med at bruge tilføjelsen på en mere
+Dette er nogle råd, der hjælper dig med at bruge tilføjelsen på en mere
 effektiv måde.
 
 * Rapportering med tegn for tegn: Normalt, når du arbejder med matematik,
@@ -163,7 +165,7 @@ effektiv måde.
   mens du skriver. Når dette er gjort, vil NVDA udtale tegn, men disse
   indstillinger vil kun påvirke LAMBDA eller dets specielle vinduer.
 
-## Postliste for tilføjelsespakke
+## Postliste for tilføjelsespakke:
 
 For at rapportere fejl, eller hvis du har forslag eller hvis du vil bidrage,
 kan du abonnere på Addon-gruppen (på engelsk). Du kan tilmelde dig på
@@ -179,10 +181,11 @@ kasseres som kandidat.
 
 ### Version 1.3.0 (stabil)
 
-* Support for newer version of NVDA (Support for Python 3)
-* Solved an issue while pressing duplicate line command NVDA+d in a blank
-  line caused clipboard content to be pasted. Now when you press NVDA+d and
-  you are in a blank line, a new blank line appears as expected.
+* Understøttelse for nyere versioner af NVDA (understøttelse fpr Python 3)
+* Løst et problem, hvor et tryk på NVDA+D, hvilket er kommandoen til at
+  duplikere en linje indsatte udklipsholderens indhold, hvis man befandt sig
+  på en blank linje. Når du nu trykker på NVDA+D, og du befinder dig på en
+  blank linje, vises en ny tom linje som forventet.
 
 ### Version 1.2.2 (stabil)
 
