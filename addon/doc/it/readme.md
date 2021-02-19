@@ -111,12 +111,13 @@ Ad ogni avvio dell'applicazione Lambda, questo componente aggiuntivo
 controlla se un profilo chiamato "lambda" esiste. Se non esiste, procede
 alla sua creazione automatica secondo questo formato:
 
-``` filename : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = •percorso-della-cartella-brailleTable-del-componente-aggiuntivo : \Nometabella
+	translationTable = path-to-the-addon-brailleTable-dir\tableName
 
 [lambda]
 	brailleFlatMode = True

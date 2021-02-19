@@ -118,7 +118,8 @@ Jedes Mal, wenn der Lambda-Editor gestartet wird, prüft diese Erweiterung,
 ob ein Profil mit dem Namen "Lambda" existiert. Ist dies nicht der Fall,
 wird automatisch ein Profil mit dem folgenden Formular erstellt:
 
-``` filename : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False

@@ -108,15 +108,16 @@ Svaki put kad pokrenete Lambda uređivač, ovaj dodatak provjerava, postoji li
 profil s nazivom „lambda”. Ako ne postoji, automatski izrađuje profil u
 obliku:
 
-``` datoteka : podaciKorisnika\profili\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
-[brajev redak]
-	čitajPoOdlomcima = Netočno
-	povežiNa = fokus
-	tablicaPrijevoda = staza-do-mape-brajeveTablice-dodatka\imeTablice
+[braille]
+	readByParagraph = False
+	tetherTo = focus
+	translationTable = path-to-the-addon-brailleTable-dir\tableName
 
 [lambda]
-	brajevFlatModus = Točno
+	brailleFlatMode = True
 
 ```
 

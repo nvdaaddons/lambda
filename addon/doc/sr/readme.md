@@ -97,7 +97,8 @@ napraviti novi sledeći put kada učitate Lambda editor.
 Svaki put kada se Lambda editor pokrene, ovaj dodatak proverava da li profil
 sa imenom "lambda" postoji. Ako ne postoji, automatski pravi sledeći profil:
 
-``` Ime datoteke: userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False

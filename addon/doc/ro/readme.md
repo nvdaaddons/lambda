@@ -114,12 +114,13 @@ De fiecare dată când editorul Lambda este pornit, acest supliment verifică
 dacă există un profil cu numele „lambda”. Dacă nu există un astfel de
 profil, el generează automat un profil cu următoarea formă:
 
-``` filename : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = calea către dosarul suplimentului brailleTable\nume tabel
+	translationTable = path-to-the-addon-brailleTable-dir\tableName
 
 [lambda]
 	brailleFlatMode = True

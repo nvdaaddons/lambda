@@ -114,7 +114,8 @@ Cada vez que o editor Lambda é arrincado, o complemento verifica se existe
 un perfil co nome "lambda". Se non existe crea automaticamente un perfil coa
 seguinte forma:
 
-``` filename : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False

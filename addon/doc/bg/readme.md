@@ -114,12 +114,13 @@ NVDA+Alt+R (когато LAMBDA е на фокус).
 съществува профил с име "lambda". Ако няма такъв, тя автоматично генерира
 такъв профил със следната структура:
 
-``` име на файла : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = път-до-директорията-на-добавката-с-брайловатаТаблица\имеНаТаблицата
+	translationTable = path-to-the-addon-brailleTable-dir\tableName
 
 [lambda]
 	brailleFlatMode = True

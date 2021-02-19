@@ -85,15 +85,16 @@ neštandardne. Napríklad ak sa nenastaví správna tabuľka.
 Pri každom spustení LAMBDA editora doplnok overí, či existuje profil. Ak
 nie, vytvorí ho a nastaví tieto parametre:
 
-``` filename : userData\profiles\lambda.ini :; určuje názov súboru
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
-	readByParagraph = False ; nečítať po odsekoch
- 	tetherTo = focus ; braillovský kurzor viazaný na fokus
- 	translationTable = path-to-the-addon-brailleTable-dir\tableName ; cesta k braillovskej tabuľke
+	readByParagraph = False
+	tetherTo = focus
+	translationTable = path-to-the-addon-brailleTable-dir\tableName
 
 [lambda]
-	brailleFlatMode = True ; aktivuje display model
+	brailleFlatMode = True
 
 ```
 

@@ -115,12 +115,13 @@ Cada vez que o editor Lambda é iniciado, esse complemento verifica se existe
 um perfil com o nome "lambda". Caso contrário, ele gera automaticamente um
 perfil com o seguinte formato:
 
-``` filename : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = caminho-para-diretório-da-tabelaBraille-do-complemento\NomeDaTabela
+	translationTable = path-to-the-addon-brailleTable-dir\tableName
 
 [lambda]
 	brailleFlatMode = True

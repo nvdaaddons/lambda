@@ -111,7 +111,8 @@ Hver gang Lambda-editoren er startet, kontrollerer denne tilføjelse, om der
 findes en profil med navnet "lambda". Hvis det ikke er tilfældet, genererer
 det automatisk en profil med følgende formular:
 
-``` filename : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False

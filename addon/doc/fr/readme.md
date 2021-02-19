@@ -115,7 +115,8 @@ Chaque fois qu'on lance l'éditeur Lambda, cette extension vérifie si un
 profil nommé "lambda" existe. Si ce n'est pas le cas, elle génère
 automatiquement un profil de la forme suivante :
 
-``` nom de fichier : userData\profiles\lambda.ini :
+```
+filename : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
