@@ -27,7 +27,7 @@ embaixo) ou subscribirse á lista de correo do proxecto.
 * Soporte para fala natural das fórmulas matemáticas utilizando o motor
   interno de LAMBDA (p.ex. "raíz composta 3 de raíz composta 3 x máis 24,
   fin da raíz, menos 3 igual 0");
-* Lectura por carácter, palabra, liña e Verbalizar Todo implementada;
+* lectura por carácter, palabra, liña e Verbalizar Todo implementada;
 * Fala cando un bloque de texto está seleccionado ou é estendido
   (utilizando CTRL+B e SHIFT+CTRL+B);
 * Fala ao moverse polo texto con comandos de Windows e con comandos
@@ -115,16 +115,12 @@ un perfil co nome "lambda". Se non existe crea automaticamente un perfil coa
 seguinte forma:
 
 ```
-filename : userData\profiles\lambda.ini :
+nome de arquivo : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
 	translationTable = path-to-the-addon-brailleTable-dir\tableName
-
-[lambda]
-	brailleFlatMode = True
-
 ```
 
 Onde :

@@ -112,16 +112,12 @@ controlla se un profilo chiamato "lambda" esiste. Se non esiste, procede
 alla sua creazione automatica secondo questo formato:
 
 ```
-filename : userData\profiles\lambda.ini :
+nome file : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = path-to-the-addon-brailleTable-dir\tableName
-
-[lambda]
-	brailleFlatMode = True
-
+	translationTable = •percorso-della-cartella-brailleTable-del-componente-aggiuntivo : \Nometabella
 ```
 
 Dove :
@@ -134,11 +130,11 @@ Dove :
 
 * * **NVDA+Shift+f**: Abilita o disabilita la modalità braille flat;
 * * **NVDA+alt+r**: Apre la finestra di dialogo "Ripristino guidato
-  impostazioni di LAMBDA".
+  impostazioni di LAMBDA";
 * * **NVDA+d**: Duplica la riga su cui è posizionato il cursore (usare
   questa combinazione di tasti invece di control+d).
 
-## Problemi noti
+## Problemi noti:
 
 Per risolvere un problema presente in LAMBDA, l'add-on contiene una miglior
 gestione della vocalizzazione degli spazi vuoti. Questa strategia di lettura
@@ -191,7 +187,7 @@ come stabile o revocata a ricevere lo stato della versione candidata.
 * Risolto un problema in virtù del quale la pressione del comando di
   duplicazione linea NVDA+d su una riga vuota causava l'esecuzione
   dell'operazione "incolla". Ora, quando si preme NVDA+d e ci si trova su
-  una riga vuota, compare una nuova riga vuota come ci si aspetta. 
+  una riga vuota, compare una nuova riga vuota come ci si aspetta.
 
 ### Versione 1.2.2 (stabile)
 

@@ -119,7 +119,7 @@ un perfil con el nombre "lambda". Si no existe crea automáticamente un
 perfil con la siguiente forma:
 
 ```
-filename : userData\profiles\lambda.ini :
+archivo : userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
