@@ -119,12 +119,12 @@ ob ein Profil mit dem Namen "Lambda" existiert. Ist dies nicht der Fall,
 wird automatisch ein Profil mit dem folgenden Formular erstellt:
 
 ```
-filename : userData\profiles\lambda.ini :
+Dateiname: userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = path-to-the-addon-brailleTable-dir\tableName
+	translationTable = Pfad-zur-Brailletabellen-Ordner-der-Erweiterung\Brailletabellenname
 
 [lambda]
 	brailleFlatMode = True
