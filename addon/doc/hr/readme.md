@@ -109,12 +109,12 @@ profil s nazivom „lambda”. Ako ne postoji, automatski izrađuje profil u
 obliku:
 
 ```
-filename : userData\profiles\lambda.ini :
+ime datoteke: userData\profiles\lambda.ini :
 
 [braille]
 	readByParagraph = False
 	tetherTo = focus
-	translationTable = path-to-the-addon-brailleTable-dir\tableName
+	translationTable = staza-do-mape-brajeveTablice-dodatka\imeTablice
 
 [lambda]
 	brailleFlatMode = True
