@@ -237,6 +237,6 @@ importantes.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=lambda
+[1]: https://www.nvaccess.org/addonStore/legacy?file=lambda
 
-[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev
+[2]: https://www.nvaccess.org/addonStore/legacy?file=lambda-dev
