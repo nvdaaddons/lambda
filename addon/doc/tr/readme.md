@@ -22,21 +22,21 @@ proje posta listesine abone olmaktan çekinmeyin.
 
 ### Konuşma desteği:
 
-* iletişim kutuları ve menüler düzgün bir şekilde raporlanır;
+* İletişim kutuları ve menüler düzgün bir şekilde raporlanır;
 * Lambda matematik motorunu kullanan matematik formülleri için doğal konuşma
   desteği, yani "bileşik kök 3 ayraç bileşik kök 3 x artı 24, kapa bileşik
   kök, eksi 3 eşittir 0";
-* Karakter, kelime, satır satır Okuma ve Tümünü söyleme uygulaması;
+* karakter, kelime, satır satır Okuma ve Tümünü söyleme uygulaması;
 * Bir metin bloğu seçildiğinde veya genişletildiğinde (CTRL+B ve
   SHIFT+CTRL+B kullanarak) bunu belirtme;
 * Standart Windows komutlarını ve Lambda'ya özgü komutları kullanarak metin
   düzenleyicide hareket ederken bunları söyler;
 * Hem Genişletilmiş hem de Kısa konuşma modları desteklenir (bunu
   Lambda'daki Araçlar menüsünü kullanarak seçebilirsiniz);
-* yapılandırılmış kip, hesap makinesi ve matris penceresi gibi özel iletişim
+* Yapılandırılmış kip, hesap makinesi ve matris penceresi gibi özel iletişim
   kutuları artık doğru bir şekilde bildiriliyor ve NVDA, imleci hareket
   ettirirken veya yeni metin yazıldığında bunu doğru şekilde okuyor;
-* yazarken yineleme Lambda metin işlemcisini kullanır, bu nedenle semboller
+* Yazarken yineleme Lambda metin işlemcisini kullanır, bu nedenle semboller
   ve işaretçiler doğru şekilde belirtilir.
 
 ### Braille desteği:
@@ -49,7 +49,7 @@ proje posta listesine abone olmaktan çekinmeyin.
 * Eklenti, standart bir braille yapılandırması için bir NVDA profili
   oluşturur. Bu sayede çıktı, yalnızca Lambda uygulaması etkinken özel
   braille tablosuna ayarlanır;
-* iletişim kutuları ve menüler braille ile düzgün bir şekilde belirtilir;
+* İletişim kutuları ve menüler braille ile düzgün bir şekilde belirtilir;
 * Editörün içeriği braille'de doğru bir şekilde oluşturulur ve kullanıcı
   braille kaydırma tuşlarını veya imleç yönlendirme tuşlarını kullanarak
   hareket edebilir;
@@ -120,7 +120,7 @@ filename : userData\profiles\lambda.ini :
 
 ```
 
-konum :
+Konum :
 
 * path-to-the-addon-brailleTable-dir : eklenti dizininin mutlak yolu +
   "\brailleTables"
@@ -145,7 +145,7 @@ mantık sağlar. Bu mantık aşağıdaki durumlarda başarısız olabilir:
   yerine "boşluk" kelimesinin çevirisini duyacaktır. Bu, hem boş bir satır
   hem de yalnızca "boşluk" kelimesini içeren bir satır olabilir.
 
-## Yaralı ipuçları:
+## Yararlı ipuçları
 
 Bu, eklentiyi daha verimli bir şekilde kullanmanıza yardımcı olacak bir dizi
 ipucudur.
@@ -188,7 +188,7 @@ aday olarak atılana kadar değişebileceğinden dahil edilmemiştir.
 
 * WX Python sürüm  4 ile uyumluluk (NVDA 2018.3 ile gelmiştir). wx.NewId()
   uyarısı artık ayıklama kayıtlarında gösterilmemektedir.
-* iletişim kutularının görünümünü geliştirmek için grafik arayüzlü yardım
+* İletişim kutularının görünümünü geliştirmek için grafik arayüzlü yardım
   uygulandı.
 * Yeni diller. Çeviriler güncellendi.
 
