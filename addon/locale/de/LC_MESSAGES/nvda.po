@@ -8,32 +8,32 @@ msgstr ""
 "Project-Id-Version: lambda 1.1.8\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2017-06-20 06:07+1000\n"
-"PO-Revision-Date: 2018-11-01 14:05+0100\n"
+"PO-Revision-Date: 2023-07-31 00:13+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to revert lambda profile options to the default."
 msgstr ""
-"Zeigt ein Dialog für das Zurücksetzen der Profileinstellungen auf "
-"Standardzustand"
+"Zeigt ein Dialogfeld für das Zurücksetzen der Profil-Einstellungen auf den "
+"Standardzustand an."
 
 #. Translators: this is a custom implementation of the globalCommands gesture, it doesn't support spelling.
 msgid "Reports the current line under the application cursor."
-msgstr "Sagt die aktuelle Zeile unter dem Anwendungscursor an."
+msgstr "Teilt die aktuelle Zeile unter dem Cursor der Anwendung mit."
 
 #. Translators: Lambda can't read from the current caret position, the implementation of sayAll provided starts reading from the top of the document.
 msgid "reads from the beginning of the document up to the end of the text."
-msgstr "Liest das Dokument vom Anfang bis Ende vor."
+msgstr "Liest das Dokument von Anfang bis Ende vor."
 
 #. Translators: this is a custom implementation of the globalCommands gesture.
 msgid "Announces the current selection in edit controls and documents."
-msgstr "Sagt die aktuelle Auswahl in Eingabefeldern und Dokumenten an."
+msgstr "Teilt die aktuelle Auswahl in Eingabefeldern und Dokumenten mit."
 
 #. This script duplicates the current line and announce it
 msgid "Duplicate the current line and sets the cursor to the new line."
@@ -41,20 +41,20 @@ msgstr "Dupliziert die aktuelle Zeile und setzt den Cursor in die neue Zeile."
 
 #. Translators: This determines whether to use API or DisplayMode to render the editor window on a braille display. It is a toggle (on/off)
 msgid "flat mode "
-msgstr "Flächenmodus"
+msgstr "Flächenmodus "
 
 #. This script set the desired textInfo for braille, when flat mode is on, the LambdaEditorFlatTextInfo is used, otherwise the LambdaEditorTextInfo is set.
 msgid "Toggle the braille flat mode on or off."
-msgstr "stelt den Flächenmodus in braille an oder aus."
+msgstr "Schaltet den Flächenmodus auf der Braillezeile ein oder aus."
 
 msgid ""
 "Duplicate lines using control+d shortcut may causes error or stability "
 "issues while using Lambda with NVDA.\n"
 "Please consider using the NVDA+D shortcut instead."
 msgstr ""
-"Duplizieren von  Zeilen mit control+d kann Fehler oder Stabilitätsprobleme "
-"bei der Verwendung von Lambda mit NVDA verursachen. Bitte denken Sie daran, "
-"stattdessen den Tastenkürzel NVDA+D zu verwenden."
+"Duplizieren von  Zeilen mit Strg+D kann Fehler oder Stabilitätsprobleme bei "
+"der Verwendung von Lambda mit NVDA verursachen.\n"
+"Bitte denken Sie daran, stattdessen NVDA+D zu verwenden."
 
 #. Translators: This string is the file name of the Lambda braille table for the translated language. The file should be present in the "brailleTables" directory in this addon. The default is the italian braille translation table.
 msgid "lambda-ita.utb"
@@ -63,40 +63,40 @@ msgstr "lambda-ita.utb"
 #. Translators: This is the label for the Quick Profile Wizard dialog.
 #. This dialog helps the user to reset relevant profile options without deleting his custom settings.
 msgid "Revert LAMBDA Profile Wizard"
-msgstr "Dialog für Lambda-Profil zurücksetzen"
+msgstr "Dialogfeld für Lambda-Profil zurücksetzen"
 
 #. Translators: This is the static text of the Quick Profile Wizard dialog.
 msgid ""
 "Choose which options you want to reset to the default value for the Lambdas "
 "profile"
 msgstr ""
-"Wähle aus, welche Einstellungen aus dem Lambda-Profil zum Standard "
+"Wählen Sie aus, welche Einstellungen aus dem Lambda-Profil auf Standard "
 "zurückgesetzt werden sollen"
 
 #. Translators: This is the label for a checkbox in the
 #. Quick Profile Wizard dialog.
 #, python-format
 msgid "Keep the LAMBDA braille table for the current language (%s)"
-msgstr "Behalte die Lambda-Brailletabelle für die aktuelle Sprache (%s)"
+msgstr "Für die Sprachausgabe (%s) die Braille-Tabelle für Lambda behalten"
 
 #. Translators: This is the label for a checkbox in the
 #. Quick Profile Wizard dialog.
 msgid "Set the braille cursor to tether the focus"
-msgstr "Braille-Cursor folgt Fokus"
+msgstr "Braille-Cursor folgt dem Fokus"
 
 #. Translators: This is the label for a checkbox in the
 #. Quick Profile Wizard dialog.
 msgid "Disable the Braille reading by paragraph"
-msgstr "Deaktiviere Braile absatzweise lesen"
+msgstr "Absatzweises Lesen auf der Braillezeile ausschalten"
 
 #. Translators: This is the label for a checkbox in the
 #. Quick Profile Wizard dialog.
 msgid "Disable word wrappping of the braille line"
-msgstr "Deaktiviere Zeilenumbrüche der Zeile"
+msgstr "Zeilenumbrüche der Zeile ausschalten"
 
 #. Translators: title of the message box that appears when the user is installing the addon and an older version prevents the update to be completed.
 msgid "Incompatible version of the addon detected"
-msgstr "Inkompatible Version dieser Erweiterung gefunden"
+msgstr "Inkompatible Version dieser NVDA-Erweiterung gefunden"
 
 #. Translators: text of the message box that appears when the user is installing the addon and an older version prevents the update to be completed.
 msgid ""
@@ -105,10 +105,10 @@ msgid ""
 "Please uninstall the previous version before proceeding with the Lambda "
 "addon setup.\n"
 msgstr ""
-"Es wurde eine alte, inkompatible Version dieser  Erweiterung gefunden.\n"
+"Es wurde eine alte, inkompatible Version dieser NVDA-Erweiterung gefunden.\n"
 "Dies verhindert die Fertigstellung der Installation.\n"
-"Bitte deinstallieren Sie die vorherige Version bevor Sie mit der "
-"Installation der Lambda-Erweiterung fortfahren.\n"
+"Bitte deinstallieren Sie die ältere Version, bevor Sie mit der Installation "
+"der NVDA-Erweiterung fortfahren.\n"
 
 #. Translators: title of the message box that appears when user is installing the addon in NVDA and a "lambda" profile is already present.
 msgid "lambda profile already exists"
@@ -125,17 +125,17 @@ msgid ""
 "Press OK to complete the addon Setup.\n"
 msgstr ""
 "Ein weiteres Profil mit dem Namen\"Lambda\" ist bereits in Ihrer NVDA-"
-"Konfiguration vorhanden. \n"
-"Dies kann zu fehlerhaften Konfigurationen des Lambda-Profils führen. \n"
-"Bitte überprüfen Sie die Standardoptionen für diese Erweiterung mit Hilfe "
-"des LAMBDA-Profil-Assistenten (Drücken von nvda+alt+r), während die Lambda-"
-"Anwendung aktiv ist. \n"
-"Drücken Sie OK, um das Addon-Setup abzuschließen. \n"
+"Konfiguration vorhanden.\n"
+"Dies kann zu fehlerhaften Konfigurationen des Lambda-Profils führen.\n"
+"Bitte überprüfen Sie die Standard-Optionen für diese NVDA-Erweiterung mit "
+"Hilfe des Lambda-Profil-Assistenten (drücken von NVDA+Alt+R), während die "
+"Lambda-Anwendung aktiv ist.\n"
+"Klicken Sie auf \"OK\", um das Setup der NVDA-Erweiterung abzuschließen.\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Lambda math editor addon"
-msgstr "Erweiterung für den Mathematik-Editor Lambda"
+msgstr "NVDA-Erweiterung für den Mathematik-Editor Lambda"
 
 #. Add-on description: can span multiple lines with """ syntax """
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -143,5 +143,5 @@ msgid ""
 "This addon provides access to the Lambda math editor with both braille and "
 "speech support."
 msgstr ""
-"Diese Erweiterung ermöglicht den Zugang zum Mathematikeditor Lambda mit "
-"Braille- und Sprachunterstützung"
+"Diese NVDA-Erweiterung ermöglicht den Zugang zum Mathematik-Editor Lambda "
+"mit Braille- und Sprachausgaben-Unterstützung"
