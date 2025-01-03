@@ -1,4 +1,4 @@
-# Complemento Lambda para NVDA (Lambda Add-On for NVDA) #
+# Complemento Lambda para NVDA — Lambda Add-On for NVDA #
 
 * Autor: Alberto Zanella e a equipe lambda-nvda.
 * Baixe a [versão estável][1]
